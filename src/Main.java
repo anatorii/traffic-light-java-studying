@@ -59,22 +59,22 @@ class TrafficLight extends Canvas
 
         g.setColor(Color.BLACK);
 
-        g.fillRoundRect(xo + 0, yo + 0, 80, 260, 20, 20);
-        g.fillRoundRect(xo + 0 + 20, yo + 0 + 265, 40, 45, 20, 20);
+        g.fillRoundRect(xo, yo, 80, 260, 20, 20);
+        g.fillRoundRect(xo + 20, yo + 265, 40, 45, 20, 20);
 
         x = xo - 55; y = yo + 20;
         g.fillRoundRect(x, y, 50, 10, 10, 10);
-        g.fillRoundRect(x + 40, y + 0, 10, 50, 10, 10);
+        g.fillRoundRect(x + 40, y, 10, 50, 10, 10);
         g.fillPolygon(new int[]{x + 4, x + 40, x + 40}, new int[]{y + 10, y + 10, y + 46}, 3);
 
         x = xo - 55; y = yo + 100;
         g.fillRoundRect(x, y, 50, 10, 10, 10);
-        g.fillRoundRect(x + 40, y + 0, 10, 50, 10, 10);
+        g.fillRoundRect(x + 40, y, 10, 50, 10, 10);
         g.fillPolygon(new int[]{x + 4, x + 40, x + 40}, new int[]{y + 10, y + 10, y + 46}, 3);
 
         x = xo - 55; y = yo + 180;
         g.fillRoundRect(x, y, 50, 10, 10, 10);
-        g.fillRoundRect(x + 40, y + 0, 10, 50, 10, 10);
+        g.fillRoundRect(x + 40, y, 10, 50, 10, 10);
         g.fillPolygon(new int[]{x + 4, x + 40, x + 40}, new int[]{y + 10, y + 10, y + 46}, 3);
 
         x = xo + 85; y = yo + 20;
